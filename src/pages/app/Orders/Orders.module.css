@@ -1,0 +1,57 @@
+.orders {
+  padding: 20px;
+}
+
+.orders h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.noOrders {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.order {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.order h3,
+.order p {
+  margin-bottom: 10px;
+}
+
+.orderTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.orderTable th,
+.orderTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.orderTable th {
+  background-color: #f4f4f4;
+}
+
+.orderTable tfoot td {
+  font-weight: bold;
+  background-color: #f4f4f4;
+}
+
+.spinnerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

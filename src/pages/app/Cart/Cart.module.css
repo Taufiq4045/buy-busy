@@ -1,0 +1,47 @@
+.cartContainer {
+  display: flex;
+  padding: 20px;
+}
+
+.cartSummary {
+  flex: 0 0 20%;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: fit-content;
+}
+
+.cartData {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.cartSummary h2 {
+  margin-bottom: 20px;
+}
+
+.cartSummary p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.cartSummary button {
+  padding: 10px 20px;
+  background-color: #3a8c5f;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cartSummary button:hover {
+  background-color: white;
+  border: 1.5px solid #3a8c5f;
+  color: #3a8c5f;
+}
+
+.cartItems {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
